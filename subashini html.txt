@@ -1,0 +1,21 @@
+
+class Project:
+    def __init__(self, name, description, technologies):
+        self.name = name
+        self.description = description
+        self.technologies = technologies
+
+    def display_project(self):
+        print(f"Project Name: {self.name}")
+        print(f"Description: {self.description}")
+        print(f"Technologies: {self.technologies}")
+
+Create projects
+project1 = Project("Data Analysis", "Analyzing customer data", "Python, Pandas, NumPy")
+project2 = Project("Web Development", "Building a website", "Python, Flask, HTML/CSS")
+
+Display projects
+project1.display_project()
+print()
+project2.display_project()
+	This code defines a `Project` class 
